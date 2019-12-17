@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from "react-router-dom";
-// import MovieCard from "./MovieCard";
+import MovieCard from "./MovieCard";
 import axios from 'axios';
 
 const MovieList = props => {
